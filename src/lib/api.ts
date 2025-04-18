@@ -3,7 +3,7 @@ import { toast } from '@/components/ui/use-toast';
 
 // Create axios instance with base URL
 export const api = axios.create({
-  baseURL:  'https://mad-backend-tn40.onrender.com',
+  baseURL:  'https://mad-backend-tn40.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
